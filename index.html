@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Arxiv api abstracts</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    </head>
+    <body>
+        <h1>arXiv Abstract Search</h1>
+
+        <form method="POST" action="/search">
+            <label for="query">Search Query:</label>
+            <input type="text" id="query" name="query" placeholder="Enter search query here">
+            <input type="submit" value="Search">
+        </form>
+        
+        
+
+    </body>
+</html>
